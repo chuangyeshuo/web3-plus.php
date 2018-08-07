@@ -1,9 +1,5 @@
-# web3.php
-
-[![Build Status](https://travis-ci.org/sc0Vu/web3.php.svg?branch=master)](https://travis-ci.org/sc0Vu/web3.php)
-[![codecov](https://codecov.io/gh/sc0Vu/web3.php/branch/master/graph/badge.svg)](https://codecov.io/gh/sc0Vu/web3.php)
-[![Join the chat at https://gitter.im/web3-php/web3.php](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/web3-php/web3.php)
-[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sc0Vu/web3.php/blob/master/LICENSE)
+# web3-plus.php
+[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)]
 
 
 A php interface for interacting with the Ethereum blockchain and ecosystem.
@@ -17,13 +13,13 @@ Set minimum stability to dev
 
 Then
 ```
-composer require sc0vu/web3.php dev-master
+composer require chuangyeshuo/web3-plus.php dev-master
 ```
 
 Or you can add this line in composer.json
 
 ```
-"chuangyeshuo/web3.php": "dev-master"
+"chuangyeshuo/web3-plus.php": "dev-master"
 ```
 
 
@@ -208,7 +204,7 @@ $web3->personal->newAccount('123456', function ($err, $account) use (&$newAccoun
 
 To run examples, you need to run ethereum blockchain local (testrpc).
 
-If you are using docker as development machain, you can try [ethdock](https://github.com/sc0vu/ethdock) to run local ethereum blockchain, just simply run `docker-compose up -d testrpc` and expose the `8545` port.
+If you are using docker as development machain, you can try [ethdock](https://github.com/chuangyeshuo/ethdock) to run local ethereum blockchain, just simply run `docker-compose up -d testrpc` and expose the `8545` port.
 
 # Develop
 
@@ -216,7 +212,7 @@ If you are using docker as development machain, you can try [ethdock](https://gi
 
 1. Clone the repo and install packages.
 ```
-git clone https://github.com/chuangyeshuo/web3.php.git && cd web3.php && composer install
+git clone https://github.com/chuangyeshuo/web3-plus.php.git && cd web3.php && composer install
 ```
 
 2. Run test script.
@@ -228,7 +224,7 @@ vendor/bin/phpunit
 
 1. Clone the repo and run docker container.
 ```
-git clone https://github.com/chuangyeshuo/web3.php.git
+git clone https://github.com/chuangyeshuo/web3-plus.php.git
 ```
 
 2. Copy web3.php to web3.php/docker/app directory and start container.
@@ -253,6 +249,6 @@ Todo.
 # License
 MIT
 
-#ETH
+# ETH
 
 0x104F8FE69dF59fe4c27dd487779D49A9Ec5caCC9
